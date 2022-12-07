@@ -72,7 +72,7 @@
 ```
   print("Can you hear me?")
 ```
-> This will write <i>Can you hear me?</i> to the terminal
+> This will write <code>Can you hear me?</code> to the terminal
 
 ### 2) <code>input</code>
 > It allows us to use it in the program by entering data from the terminal
@@ -80,7 +80,7 @@
 ```
   input("Write your name: ")
 ```
-> This will write <i>Write your name: </i> and will wait until you write anything
+> This will write <code>Write your name: </code> and will wait until you write anything
 
 ### 3) <code>if</code>
 > It allows us to create condition block
@@ -89,7 +89,7 @@
   if 5 > 2:
     print("This is true!")
 ```
-> This will write <i>This is true!</i> because <i>if</i> condition is right (As we know, 5 is bigger than 2). So how do we do it if it's wrong?
+> This will write <code>This is true!</code> because <i>if</i> condition is right (As we know, 5 is bigger than 2). So how do we do it if it's wrong?
 
 ### 4) <code>if-else</code>
 > It allows us to create condition block
@@ -100,7 +100,7 @@
   else:
     print("This isn't true!")
 ```
-> This will write <i>This isn't true!</i> because <i>if</i> condition isn't right (As we know, 2 isn't bigger than 5). So how do we do it if it's equal?
+> This will write <code>This isn't true!</code> because <i>if</i> condition isn't right (As we know, 2 isn't bigger than 5). So how do we do it if it's equal?
 
 ### 5) <code>if-elif-else</code>
 > It allows us to create condition block with different possibilities
@@ -113,7 +113,7 @@
   else:
     print("This isn't true!")
 ```
-> This will write <i>They are equal</i> because <i>if</i> condition isn't right and <i>elif</i> is right. (As we know, 2 equal 2 😁). So how do we do cheack them? For example we used "==" in our "elif" section. Before talk about them, I need to show one more thing.
+> This will write <code>They are equal</code> because <i>if</i> condition isn't right and <i>elif</i> is right. (As we know, 2 equal 2 😁). So how do we do cheack them? For example we used "==" in our "elif" section. Before talk about them, I need to show one more thing.
 
 ### 6) <code>if-elif-...-elif-else</code>
 > It allows us to create condition block with more different possibilities
@@ -131,6 +131,8 @@
   else:
     print("This isn't true!")
 ```
-> This will write <i>They aren't equal</i> because <i>if-second elif</i> condition isn't right and <i>first elif</i> is right. We used "!=" in our "elif" section. As the other example, we can check some conditions. These "==" and "!=" some examples of what we use. Until now, you learned the print something to the screen, you learned to use input and you see the if-elif-else condition blocks. To learn and understand these blocks too, we need to learn something more 😄
+> This will write <code>They aren't equal</code> because <i>if-second elif</i> condition isn't right and <i>first elif</i> is right. We used "!=" in our "elif" section. As the other example, we can check some conditions. These "==" and "!=" some examples of what we use.
+> > Until now, you learned the print something to the screen, you learned to use input and you see the if-elif-else condition blocks. 
+> > > To learn and understand these blocks too, we need to learn something more 😄
 
 // örnekler öncesi operations ve variable types başlıkları oluştur
