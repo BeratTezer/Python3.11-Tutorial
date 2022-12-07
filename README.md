@@ -1,4 +1,4 @@
-# <p align="center"> ![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png)Learn Python![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png) </p>
+# <p align="center"> ![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png)Python Time![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png) </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Situation-Updating...-green" alt="situation bagde"/> <img src="https://visitor-badge.glitch.me/badge?page_id=BeratTezer.Python3.11-Tutorial&left_text=Viewers%20of%20Education" alt="visitor badge"/> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BeratTezer/Python3.11-Tutorial?color=informational&label=Thanks%20to%20me"> 
@@ -9,6 +9,9 @@
 - [VSCode and Python Extension](#-vscode-and-python-extension)
 - [Let's Start!](#-lets-start)
 - [First Lines](#-first-lines)
+- [Data Types](#-data-types)
+- [Variable](#-variables)
+- [Operations](#-operations)
 
 ## 📦 VSCode and Python Extension
 
@@ -72,7 +75,7 @@
 ```
   print("Can you hear me?")
 ```
-> This will write <code>Can you hear me?</code> to the terminal
+> This will write <i>Can you hear me?</i> to the terminal
 
 ### 2) <code>input</code>
 > It allows us to use it in the program by entering data from the terminal
@@ -80,7 +83,7 @@
 ```
   input("Write your name: ")
 ```
-> This will write <code>Write your name: </code> and will wait until you write anything
+> This will write <i>Write your name: </i> and will wait until you write anything
 
 ### 3) <code>if</code>
 > It allows us to create condition block
@@ -89,7 +92,7 @@
   if 5 > 2:
     print("This is true!")
 ```
-> This will write <code>This is true!</code> because <i>if</i> condition is right (As we know, 5 is bigger than 2). So how do we do it if it's wrong?
+> This will write <i>This is true!</i> because <i>if</i> condition is right (As we know, 5 is bigger than 2). So how do we do it if it's wrong?
 
 ### 4) <code>if-else</code>
 > It allows us to create condition block
@@ -100,7 +103,7 @@
   else:
     print("This isn't true!")
 ```
-> This will write <code>This isn't true!</code> because <i>if</i> condition isn't right (As we know, 2 isn't bigger than 5). So how do we do it if it's equal?
+> This will write <i>This isn't true!</i> because <i>if</i> condition isn't right (As we know, 2 isn't bigger than 5). So how do we do it if it's equal?
 
 ### 5) <code>if-elif-else</code>
 > It allows us to create condition block with different possibilities
@@ -113,7 +116,7 @@
   else:
     print("This isn't true!")
 ```
-> This will write <code>They are equal</code> because <i>if</i> condition isn't right and <i>elif</i> is right. (As we know, 2 equal 2 😁). So how do we do cheack them? For example we used "==" in our "elif" section. Before talk about them, I need to show one more thing.
+> This will write <i>They are equal</i> because <i>if</i> condition isn't right and <i>elif</i> is right. (As we know, 2 equal 2 😁). So how do we do cheack them? For example we used "==" in our "elif" section. Before talk about them, I need to show one more thing.
 
 ### 6) <code>if-elif-...-elif-else</code>
 > It allows us to create condition block with more different possibilities
@@ -131,8 +134,80 @@
   else:
     print("This isn't true!")
 ```
-> This will write <code>They aren't equal</code> because <i>if-second elif</i> condition isn't right and <i>first elif</i> is right. We used "!=" in our "elif" section. As the other example, we can check some conditions. These "==" and "!=" some examples of what we use.
-> > Until now, you learned the print something to the screen, you learned to use input and you see the if-elif-else condition blocks. 
-> > > To learn and understand these blocks too, we need to learn something more 😄
+> This will write <i>They aren't equal</i> because <i>if-second elif</i> condition isn't right and <i>first elif</i> is right. We used "!=" in our "elif" section. As the other example, we can check some conditions. These "==" and "!=" some examples of what we use. Until now, you learned the print something to the screen, you learned to use input and you see the if-elif-else condition blocks. To learn and understand these blocks too, we need to learn something more 😄
 
-// örnekler öncesi operations ve variable types başlıkları oluştur
+## 📜 Data Types
+> In this sections, you will see explanations about data types. Thus you will understand variables and data types. After this sections, you will see explanations about variables. Shortly, we use them to store or use datas in our program or code. 
+
+### 1) <code>str</code>
+> This data type is using for string datas. For example, if you want to add your name or any kind of string data your variable will be <code>str</code> data.
+>> <code>"Earth"</code> is a string(str) data.
+
+### 2) <code>int</code>
+> This data type is using for integer datas. For example, if you want to use your age in your program it will be <code>int</code> data.
+>> <code>13</code> is a integer(int) data.
+
+### 3) <code>float</code>
+> This data type is using for decimal number datas. For example, if you want to use temperature in your program this data will be <code>float</code>.
+>> <code>303.1</code> is a float data.
+
+### 4) <code>bool</code>
+> This data type is using for understanding something is <code>True</code> or <code>False</code>. We generally use them with loops.
+
+### 5) <code>list</code>
+> This data type is using for collecting datas under a list. You can think it like your "shopping list", that's mean your "shopping list" is a <code>list</code> data. In python we use "\[" and "\]" for define them.
+>> <code>["book","cd","food","water"]</code>
+
+### ⭐) Comment Line
+> If you want to add line which won't use by program, you can write them with "#". It's name is comment line because developers use them for adding note their programs. But if your comment will be longer than 4-5 lines you have another option to make them comment line, It's "```" "```" . Let's look at the example below.
+
+```
+  # This is a comment line in Python
+  # These lines won't run by your compiler (VSCode)
+  
+  print("Where I am?") # This is comment line too but if I do like this, my print command will work but as the other this part won't run by program
+
+  ‎```
+  And this is the comment block in Python
+  You can write a lot of lines into this
+  ‎```
+```
+
+## 🎨 Variables
+> As I told before, we use variables to store or use datas in our program or code. Let's see how we use them. 
+
+### 1) The Variables We Set
+> We can define variables when we write the code.
+
+```
+  name = "Apple"                       # str (String)
+  myNumber = 5                         # int (Integer)
+  your_ number = 0.2                   # float (Float)
+  ourList = ["apple","orange","grape"] # list (List)
+``` 
+
+### 2) The Variables Receiving Data From User
+> We don't have to define variable with their values. Let's get values from user.
+
+```
+  name = input("What is your name? >")
+``` 
+
+> But there is a difference. If user write there <code>6</code>, this data won't be string. Until you write an answer to your <code>input</code> command, "name" will be "NoneType". You can think that's undefinied. But when you write and hit the enter, it will be changed.
+
+
+### ⭐) Print Data
+> We can print our datas by their variable.
+
+```
+  myName = "Apple"
+  yourName = input("What is your name? > ")
+  
+  print(myName)    # Apple writes. 
+  print(yourName)  # It will write your input
+``` 
+
+## ➕ Operations
+> In this sections, you will see explanations about data types. Thus you will understand variables and data types.
+
+### 1) == meselaaaa
