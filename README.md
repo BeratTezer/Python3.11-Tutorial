@@ -13,6 +13,7 @@
 - [Variable](#-variables)
 - [Operations](#-operations)
 
+
 ## 📦 VSCode and Python Extension
 
 ### 1) Install VSCode
@@ -208,6 +209,45 @@
 ``` 
 
 ## ➕ Operations
-> In this sections, you will see explanations about data types. Thus you will understand variables and data types.
+> In this sections, you will see some common operations but they won't be all of them. For more look at the table and go for full document.
 
-### 1) == meselaaaa
+### 1) <code>==, !=</code>
+> We use these operator for check the values or datas are equal or not and returns <code>True</code> or <code>False</code>. Let's learn with the examples. In this example I will use with print but of course, you can use different ways.
+
+  ```
+  x = 5
+  y = 10
+  print(x == y) # Prints "False" (== -> Are they both equal?)
+  print(x != y) # Prints "True"  (!= -> Are they not equal?)
+  ```
+
+### 2) <code>+, -, /, *</code>
+> We use these operator for basic mathematical calculations.
+
+  ```
+  x = 47
+  y = 38
+  print(x + y) # Prints "85"
+  print(x - y) # Prints "9"
+  print(x / y) # Prints "1.236842105263158"
+  print(x * y) # Prints "1786"
+  ```
+
+### 3) <code><,></code>
+> We use these to returns <code>True</code> or <code>False</code>. They control the values like <code>==</code> and <code>!=</code>.
+  
+  ```
+  x = 50
+  y = 30
+  print(x > y) # Prints "True"
+  print(x < y) # Prints "False"
+  ```
+
+### ⭐) Table From Document
+<p align="center">
+  <b>Click</b> the Image for going to the resource.
+  <a href=https://docs.python.org/3/reference/expressions.html"">
+  <img src="https://user-images.githubusercontent.com/64587561/206585677-820ddd3c-c9bd-4dcc-8eb1-586f3d36bf90.png" alt="Table from Python Website">
+  </a>
+</p>
+
