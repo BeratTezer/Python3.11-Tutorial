@@ -1,8 +1,17 @@
 # <p align="center"> ![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png)Python Time![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png) </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Situation-Updating...-green" alt="situation bagde"/> <img src="https://visitor-badge.glitch.me/badge?page_id=BeratTezer.Python3.11-Tutorial&left_text=Viewers%20of%20Education" alt="visitor badge"/> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BeratTezer/Python3.11-Tutorial?color=informational&label=Thanks%20to%20me"> 
+  <img src="https://img.shields.io/badge/Situation-Updating...-green" alt="situation bagde"/> <img src="https://visitor-badge.glitch.me/badge?page_id=BeratTezer.Python3.11-Tutorial&left_text=Viewers%20of%20Education" alt="visitor badge"/> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BeratTezer/Python3.11-Tutorial?color=informational&label=Thanks%20to%20me"> 
 </p>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Sans+Herif&weight=500&size=30&duration=2500&pause=1000&color=D2D023&center=true&vCenter=true&width=635&lines=Let's+learn+togetger!+;Learn+Python+with+examples+;Learn+Python+with+short+explanations;Add+your+flavor!" alt="Typing SVG" /></a>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/64587561/206591446-caea202f-dfcf-4366-b2f9-8158845ee046.gif" alt="man-kissing-snake">
+</p>
+
 
 ## 📅 Contents
 
@@ -12,7 +21,8 @@
 - [Data Types](#-data-types)
 - [Variable](#-variables)
 - [Operations](#-operations)
-
+- [Examples1](#-examples1)
+- [Loops](#*loops)
 
 ## 📦 VSCode and Python Extension
 
@@ -245,9 +255,36 @@
 
 ### ⭐) Table From Document
 <p align="center">
-  <b>Click</b> the Image for going to the resource.
-  <a href=https://docs.python.org/3/reference/expressions.html"">
+  <b>Click</b> on the Image to go to the source.
+  <a href="https://docs.python.org/3/reference/expressions.html">
   <img src="https://user-images.githubusercontent.com/64587561/206585677-820ddd3c-c9bd-4dcc-8eb1-586f3d36bf90.png" alt="Table from Python Website">
   </a>
 </p>
 
+<!-- # ➰ Loops
+> In this section, we will learn about loops. After this section, you will be ready for examples and more!
+
+### 1) <code>For</code> Loops
+> We can define variables when we write the code.
+
+```
+  name = "Apple"                       # str (String)
+  myNumber = 5                         # int (Integer)
+  your_ number = 0.2                   # float (Float)
+  ourList = ["apple","orange","grape"] # list (List)
+``` 
+
+### 2) The Variables Receiving Data From User
+> We don't have to define variable with their values. Let's get values from user.
+
+```
+  name = input("What is your name? >")
+```  -->
+
+## 🐍 Examples1
+
+  <details>
+    <summary>Input-Print-Example-1</summary>
+    <h4><i>Kesinlikle tavsiye vb niteliği taşımaz. Yalnızca eğitim ve öğrenim amaçlı üretilmiştir. İlgili öğrenenlere sunulur.</i></h4>
+  
+  </details>
