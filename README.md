@@ -285,6 +285,7 @@
 
   <details>
     <summary>Input-Print-Example-1</summary>
-    <h4><i>Kesinlikle tavsiye vb niteliği taşımaz. Yalnızca eğitim ve öğrenim amaçlı üretilmiştir. İlgili öğrenenlere sunulur.</i></h4>
-  
+    ```
+    her
+    ```
   </details>
