@@ -225,22 +225,22 @@
 > We use these operator for check the values or datas are equal or not and returns <code>True</code> or <code>False</code>. Let's learn with the examples. In this example I will use with print but of course, you can use different ways.
 
   ```
-  x = 5
-  y = 10
-  print(x == y) # Prints "False" (== -> Are they both equal?)
-  print(x != y) # Prints "True"  (!= -> Are they not equal?)
+    x = 5
+    y = 10
+    print(x == y) # Prints "False" (== -> Are they both equal?)
+    print(x != y) # Prints "True"  (!= -> Are they not equal?)
   ```
 
 ### 2) <code>+, -, /, *</code>
 > We use these operator for basic mathematical calculations.
 
   ```
-  x = 47
-  y = 38
-  print(x + y) # Prints "85"
-  print(x - y) # Prints "9"
-  print(x / y) # Prints "1.236842105263158"
-  print(x * y) # Prints "1786"
+    x = 47
+    y = 38
+    print(x + y) # Prints "85"
+    print(x - y) # Prints "9"
+    print(x / y) # Prints "1.236842105263158"
+    print(x * y) # Prints "1786"
   ```
 
 ### 3) <code><,></code>
@@ -279,13 +279,33 @@
 
 ```
   name = input("What is your name? >")
-```  -->
+```  
+
+# 🤸🏼‍♂️ Converting Data Types
+> 
+
+### 1) <code>For</code> Loops
+> 
+
+```
+``` 
+
+### 2) 
+> 
+
+```
+```  
+-->
 
 ## 🐍 Examples1
+### 1️⃣ Input-Print-Example-1
+```
+  name = input("Please write your name: ")
+  print(f"\nHi {name}, It's nice to see you. Did you drink enough water today? ")
+  water = input("? > ")
+  print(f"It's important {name}, Studies show that an adult woman should drink 2.7 liters of fluid per day, and a man 3.7 liters. But softwares not ^-^")
+```
 
-  <details>
-    <summary>Input-Print-Example-1</summary>
-    ```
-    her
-    ```
-  </details>
+### 2️⃣ Input-Print-Example-2
+```
+```
