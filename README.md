@@ -346,6 +346,7 @@ else:
 ```
 
 ### 5️⃣ If-Elif-Else-Example-2
+#### This example is purposely kept long, let's learn to make it shorter.
 ```
 print("This is a grade checker.\nYour first test has an impact rate of 40%, your second test has an impact rate of 60%.\nWrite your scores and see your result.\nIf you have lower than 40, you will be unsuccesful.\n(Grades must be between 0-100)\nAt this program, your grade will handle different")
   
