@@ -347,7 +347,25 @@ else:
 
 ### 5️⃣ If-Elif-Else-Example-2
 ```
-
+print("This is a grade checker.\nYour first test has an impact rate of 40%, your second test has an impact rate of 60%.\nWrite your scores and see your result.\nIf you have lower than 40, you will be unsuccesful.\n(Grades must be between 0-100)\nAt this program, your grade will handle different")
+  
+firstTest = input("Your first test score: ")
+secondTest = input("Your second test score: ")
+  
+result = (firstTest*40)/100 + (secondTest*60)/100
+  
+if result >= 90:
+    print("\nYour grade is equal or more than 90\n")
+elif result < 90:
+    if result >= 70:
+        print("\nYour grade is equal or more than 70\n")
+    elif result < 70:
+        if result <= 50:
+            print("\nYour grade is lower than 70\n")
+        elif result < 50:
+            print("\nYour grade is equal or more than 50\n")
+else:
+    print("\nAn error occured\n")
 ```
 
 
