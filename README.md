@@ -84,7 +84,7 @@
 > Uses to output to the screen. Usage:
 
 ```
-  print("Can you hear me?")
+print("Can you hear me?")
 ```
 > This will write <i>Can you hear me?</i> to the terminal
 
@@ -92,7 +92,7 @@
 > It allows us to use it in the program by entering data from the terminal
 
 ```
-  input("Write your name: ")
+input("Write your name: ")
 ```
 > This will write <i>Write your name: </i> and will wait until you write anything
 
@@ -100,8 +100,8 @@
 > It allows us to create condition block
 
 ```
-  if 5 > 2:
-    print("This is true!")
+if 5 > 2:
+  print("This is true!")
 ```
 > This will write <i>This is true!</i> because <i>if</i> condition is right (As we know, 5 is bigger than 2). So how do we do it if it's wrong?
 
@@ -109,10 +109,10 @@
 > It allows us to create condition block
 
 ```
-  if 2 > 5:
-    print("This is true!")
-  else:
-    print("This isn't true!")
+if 2 > 5:
+  print("This is true!")
+else:
+  print("This isn't true!")
 ```
 > This will write <i>This isn't true!</i> because <i>if</i> condition isn't right (As we know, 2 isn't bigger than 5). So how do we do it if it's equal?
 
@@ -120,12 +120,12 @@
 > It allows us to create condition block with different possibilities
 
 ```
-  if 2 > 2:
-    print("This is true!")
-  elif 2 == 2:
-    print("They are equal")
-  else:
-    print("This isn't true!")
+if 2 > 2:
+  print("This is true!")
+elif 2 == 2:
+  print("They are equal")
+else:
+  print("This isn't true!")
 ```
 > This will write <i>They are equal</i> because <i>if</i> condition isn't right and <i>elif</i> is right. (As we know, 2 equal 2 😁). So how do we do cheack them? For example we used "==" in our "elif" section. Before talk about them, I need to show one more thing.
 
@@ -133,17 +133,17 @@
 > It allows us to create condition block with more different possibilities
 
 ```
-  if 2 > 2:
-    print("This is true!")
-  elif 2 == 2:
-    print("They are equal")
-  .
-  .
-  .
-  elif 2 != 2:
-    print("They aren't equal")
-  else:
-    print("This isn't true!")
+if 2 > 2:
+  print("This is true!")
+elif 2 == 2:
+  print("They are equal")
+.
+.
+.
+elif 2 != 2:
+  print("They aren't equal")
+else:
+  print("This isn't true!")
 ```
 > This will write <i>They aren't equal</i> because <i>if-second elif</i> condition isn't right and <i>first elif</i> is right. We used "!=" in our "elif" section. As the other example, we can check some conditions. These "==" and "!=" some examples of what we use. Until now, you learned the print something to the screen, you learned to use input and you see the if-elif-else condition blocks. To learn and understand these blocks too, we need to learn something more 😄
 
@@ -172,16 +172,9 @@
 ### ⭐) Comment Line
 > If you want to add line which won't use by program, you can write them with "#". It's name is comment line because developers use them for adding note their programs. But if your comment will be longer than 4-5 lines you have another option to make them comment line, It's "```" "```" . Let's look at the example below.
 
-```
-  # This is a comment line in Python
-  # These lines won't run by your compiler (VSCode)
-  
+```# This is a comment line in Python# These lines won't run by your compiler (VSCode)
   print("Where I am?") # This is comment line too but if I do like this, my print command will work but as the other this part won't run by program
-
-  ‎```
-  And this is the comment block in Python
-  You can write a lot of lines into this
-  ‎```
+‎```And this is the comment block in PythonYou can write a lot of lines into this‎```
 ```
 
 ## 🎨 Variables
@@ -191,17 +184,17 @@
 > We can define variables when we write the code.
 
 ```
-  name = "Apple"                       # str (String)
-  myNumber = 5                         # int (Integer)
-  your_ number = 0.2                   # float (Float)
-  ourList = ["apple","orange","grape"] # list (List)
+name = "Apple"                       # str (String)
+myNumber = 5                         # int (Integer)
+your_ number = 0.2                   # float (Float)
+ourList = ["apple","orange","grape"] # list (List)
 ``` 
 
 ### 2) The Variables Receiving Data From User
 > We don't have to define variable with their values. Let's get values from user.
 
 ```
-  name = input("What is your name? >")
+name = input("What is your name? >")
 ``` 
 
 > But there is a difference. If user write there <code>6</code>, this data won't be string. Until you write an answer to your <code>input</code> command, "name" will be "NoneType". You can think that's undefinied. But when you write and hit the enter, it will be changed.
@@ -211,11 +204,11 @@
 > We can print our datas by their variable.
 
 ```
-  myName = "Apple"
-  yourName = input("What is your name? > ")
+myName = "Apple"
+yourName = input("What is your name? > ")
   
-  print(myName)    # Apple writes. 
-  print(yourName)  # It will write your input
+print(myName)    # Apple writes. 
+print(yourName)  # It will write your input
 ``` 
 
 ## ➕ Operations
@@ -225,22 +218,22 @@
 > We use these operator for check the values or datas are equal or not and returns <code>True</code> or <code>False</code>. Let's learn with the examples. In this example I will use with print but of course, you can use different ways.
 
   ```
-    x = 5
-    y = 10
-    print(x == y) # Prints "False" (== -> Are they both equal?)
-    print(x != y) # Prints "True"  (!= -> Are they not equal?)
+x = 5
+y = 10
+print(x == y) # Prints "False" (== -> Are they both equal?)
+print(x != y) # Prints "True"  (!= -> Are they not equal?)
   ```
 
 ### 2) <code>+, -, /, *</code>
 > We use these operator for basic mathematical calculations.
 
   ```
-    x = 47
-    y = 38
-    print(x + y) # Prints "85"
-    print(x - y) # Prints "9"
-    print(x / y) # Prints "1.236842105263158"
-    print(x * y) # Prints "1786"
+x = 47
+y = 38
+print(x + y) # Prints "85"
+print(x - y) # Prints "9"
+print(x / y) # Prints "1.236842105263158"
+print(x * y) # Prints "1786"
   ```
 
 ### 3) <code><,></code>
@@ -267,18 +260,17 @@
 ### 1) <code>For</code> Loops
 > We can define variables when we write the code.
 
-```
-  name = "Apple"                       # str (String)
-  myNumber = 5                         # int (Integer)
-  your_ number = 0.2                   # float (Float)
-  ourList = ["apple","orange","grape"] # list (List)
+```name = "Apple"                       # str (String)
+myNumber = 5                         # int (Integer)
+your_ number = 0.2                   # float (Float)
+ourList = ["apple","orange","grape"] # list (List)
 ``` 
 
 ### 2) The Variables Receiving Data From User
 > We don't have to define variable with their values. Let's get values from user.
 
 ```
-  name = input("What is your name? >")
+name = input("What is your name? >")
 ```  
 
 # 🤸🏼‍♂️ Converting Data Types
@@ -300,12 +292,85 @@
 ## 🐍 Examples1
 ### 1️⃣ Input-Print-Example-1
 ```
-  name = input("Please write your name: ")
-  print(f"\nHi {name}, It's nice to see you. Did you drink enough water today? ")
-  water = input("? > ")
-  print(f"It's important {name}, Studies show that an adult woman should drink 2.7 liters of fluid per day, and a man 3.7 liters. But softwares not ^-^")
+name = input("Please write your name: ")
+print(f"\nHi {name}, It's nice to see you. Did you drink enough water today? ")
+water = input("? > ")
+print(f"It's important {name}, Studies show that an adult woman should drink 2.7 liters of fluid per day, and a man 3.7 liters. But softwares not ^-^")
 ```
 
 ### 2️⃣ Input-Print-Example-2
 ```
+print("This program write a automatic self introduction text.\nLet's start!")
+  
+name = input("What is your name? > ")
+surname = input("\nWhat is your surname? > ")
+age = input("\nHow old are you? > ")
+country = input("\nWhere do you live? > ")
+job = input("\n")
+note = input("\n")
+  
+print("\n\nHi! It's {name} {surname}. I am {age}. I live in {country} and I do {job} for living. Finally, {note}.")
 ```
+
+### 3️⃣ If-Else-Example
+```
+print("This is a grade checker.\nYour first test has an impact rate of 40%, your second test has an impact rate of 60%.\nWrite your scores and see your result.\nIf you have lower than 40, you will be unsuccesful.\n(Grades must be between 0-100)\n")
+  
+firstTest = input("Your first test score: ")
+secondTest = input("Your second test score: ")
+  
+result = (firstTest*40)/100 + (secondTest*60)/100
+  
+if result > 40:
+  print("\nYou passed the class\n")
+else:
+  print("\nYou didn't pass the class\n")
+```
+
+
+### 4️⃣ If-Elif-Else-Example-2
+```
+print("This is a grade checker.\nYour first test has an impact rate of 40%, your second test has an impact rate of 60%.\nWrite your scores and see your result.\nIf you have lower than 40, you will be unsuccesful.\n(Grades must be between 0-100)\nAt this program, your grade will handle different")
+  
+firstTest = input("Your first test score: ")
+secondTest = input("Your second test score: ")
+  
+result = (firstTest*40)/100 + (secondTest*60)/100
+  
+if result >= 90:
+    print("\nYour grade is equal or more than 90\n")
+elif result < 90:
+    print("\nYour grade is lower than 90\n")
+else:
+    print("\nAn error occured\n")
+```
+
+### 5️⃣ If-Elif-Else-Example-2
+```
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You can sent me your questions or examples as comment. Thank you for your interest.
