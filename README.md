@@ -21,8 +21,8 @@
 - [Data Types](#-data-types)
 - [Variable](#-variables)
 - [Operations](#-operations)
-- [Examples1](#-examples1)
 - [Loops](#*loops)
+- [Examples1](#-examples1)
 
 ## 📦 VSCode and Python Extension
 
