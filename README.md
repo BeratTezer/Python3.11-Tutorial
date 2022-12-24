@@ -145,7 +145,11 @@ elif 2 != 2:
 else:
   print("This isn't true!")
 ```
-> This will write <i>They aren't equal</i> because <i>if-second elif</i> condition isn't right and <i>first elif</i> is right. We used "!=" in our "elif" section. As the other example, we can check some conditions. These "==" and "!=" some examples of what we use. Until now, you learned the print something to the screen, you learned to use input and you see the if-elif-else condition blocks. To learn and understand these blocks too, we need to learn something more 😄
+
+<details>
+    <summary>Explanation</summary>
+    <p>This will write <i>They aren't equal</i> because <i>if-second elif</i> condition isn't right and <i>first elif</i> is right. We used "!=" in our "elif" section. As the other example, we can check some conditions. These "==" and "!=" some examples of what we use. Until now, you learned the print something to the screen, you learned to use input and you see the if-elif-else condition blocks. To learn and understand these blocks too, we need to learn something more 😄</p>
+</details>
 
 ## 📜 Data Types
 > In this sections, you will see explanations about data types. Thus you will understand variables and data types. After this sections, you will see explanations about variables. Shortly, we use them to store or use datas in our program or code. 
@@ -196,9 +200,23 @@ ourList = ["apple","orange","grape"] # list (List)
 ```
 name = input("What is your name? >")
 ``` 
+<details>
+    <summary>Explanation</summary>
+    <p>But there is a difference. If user write there <code>6</code>, this data won't be string. Until you write an answer to your <code>input</code> command, "name" will be "NoneType". You can think that's undefinied. But when you write and hit the enter, it will be changed.</p>
+</details>
 
-> But there is a difference. If user write there <code>6</code>, this data won't be string. Until you write an answer to your <code>input</code> command, "name" will be "NoneType". You can think that's undefinied. But when you write and hit the enter, it will be changed.
+### 3) Using Datas From User
+> We can use data came from user. In this example we will use <code>f</code> string. We can use our variables in the texts we wrote with this string type. Looks like that <code>print(f"{variable_name}")</code>
 
+```
+name = input("What is your name? >")
+
+print(f"My name is {name}") # Output will be "My name is (your input)" 
+``` 
+<details>
+    <summary>Explanation</summary>
+    <p>If you want to print your name here, you have to write your variable which gets your name.</p>
+</details>
 
 ### ⭐) Print Data
 > We can print our datas by their variable.
@@ -214,17 +232,17 @@ print(yourName)  # It will write your input
 ## ➕ Operations
 > In this sections, you will see some common operations but they won't be all of them. For more look at the table and go for full document.
 
-### 1) <code>==, !=</code>
+### 1) <code>==</code>, <code>!=</code>
 > We use these operator for check the values or datas are equal or not and returns <code>True</code> or <code>False</code>. Let's learn with the examples. In this example I will use with print but of course, you can use different ways.
 
   ```
 x = 5
 y = 10
-print(x == y) # Prints "False" (== -> Are they both equal?)
+print(x == y) # Prints "False" (== -> Are they equal?)
 print(x != y) # Prints "True"  (!= -> Are they not equal?)
   ```
 
-### 2) <code>+, -, /, *</code>
+### 2) <code>+</code>, <code>-</code>, <code>/</code>, <code>*</code>
 > We use these operator for basic mathematical calculations.
 
   ```
@@ -236,16 +254,31 @@ print(x / y) # Prints "1.236842105263158"
 print(x * y) # Prints "1786"
   ```
 
-### 3) <code><,></code>
+### 3) <code><</code>, <code>></code>
 > We use these to returns <code>True</code> or <code>False</code>. They control the values like <code>==</code> and <code>!=</code>.
   
   ```
-  x = 50
-  y = 30
-  print(x > y) # Prints "True"
-  print(x < y) # Prints "False"
+x = 50
+y = 30
+print(x > y) # Prints "True"
+print(x < y) # Prints "False"
   ```
 
+### 4) <code>and</code> and <code>or</code>
+> We use these operator for creating more complex conditions.
+
+  ```
+x = 50
+y = 30
+print(x > y and x == 50) # Prints "True". Because x > y is true and x == 50 returns true too. Then the result is true.
+print(x < y or y == 30) # Prints "True". Because y = 30. In "or" operation, just one true enough for returning true.
+  ```
+<details>
+    <summary>Explanation</summary>
+    <code>print(x > y and x == 50) # Prints "True". Because x > y is true and x == 50 returns true too. Then the result is true.
+print(x < y or y == 30) # Prints "True". Because y = 30. In "or" operation, just one true enough for returning true.</code>
+</details>
+  
 ### ⭐) Table From Document
 <p align="center">
   <b>Click</b> on the Image to go to the source.
@@ -253,30 +286,44 @@ print(x * y) # Prints "1786"
   <img src="https://user-images.githubusercontent.com/64587561/206585677-820ddd3c-c9bd-4dcc-8eb1-586f3d36bf90.png" alt="Table from Python Website">
   </a>
 </p>
-
-<!-- # ➰ Loops
+  
+<!--  -->
+ 
+# ➰ Loops
 > In this section, we will learn about loops. After this section, you will be ready for examples and more!
 
-### 1) <code>For</code> Loops
+### 1) <code>For</code> Loops with Lists
 > We can define variables when we write the code.
 
-```name = "Apple"                       # str (String)
-myNumber = 5                         # int (Integer)
-your_ number = 0.2                   # float (Float)
-ourList = ["apple","orange","grape"] # list (List)
-``` 
+```
+# for {variable name for each element} in {element's resource}:
+#   {we can do anything we want in}
 
-### 2) The Variables Receiving Data From User
-> We don't have to define variable with their values. Let's get values from user.
+list = ["book","cd","food","water"]
+
+for name in list:
+  print(f"This is {name}")
+```
+<details>
+    <summary>Explanation</summary>
+    <p>This loop will run the print command for four times because our list have four element and name variable will be write different for each tour.</p>
+  <code>This is book
+    This is cd
+    This is food
+    This is water</code>
+</details>
+
+### 2) While 
+> 
 
 ```
-name = input("What is your name? >")
+  
 ```  
 
 # 🤸🏼‍♂️ Converting Data Types
 > 
 
-### 1) <code>For</code> Loops
+### 1) 
 > 
 
 ```
@@ -286,9 +333,10 @@ name = input("What is your name? >")
 > 
 
 ```
-```  
--->
+```
 
+<!--    -->
+  
 ## 🐍 Examples1
 ### 1️⃣ Input-Print-Example-1
 ```
@@ -326,8 +374,7 @@ if result > 40:
 else:
   print("\nYou didn't pass the class\n")
 ```
-
-
+  
 ### 4️⃣ If-Elif-Else-Example-2
 ```
 print("This is a grade checker.\nYour first test has an impact rate of 40%, your second test has an impact rate of 60%.\nWrite your scores and see your result.\nIf you have lower than 40, you will be unsuccesful.\n(Grades must be between 0-100)\nAt this program, your grade will handle different")
@@ -345,7 +392,7 @@ else:
     print("\nAn error occured\n")
 ```
 
-### 5️⃣ If-Elif-Else-Example-2
+### 5️⃣ If-Elif-Else-Example-3
 #### This example is purposely kept long, let's learn to make it shorter.
 ```
 print("This is a grade checker.\nYour first test has an impact rate of 40%, your second test has an impact rate of 60%.\nWrite your scores and see your result.\nIf you have lower than 40, you will be unsuccesful.\n(Grades must be between 0-100)\nAt this program, your grade will handle different")
@@ -369,27 +416,25 @@ else:
     print("\nAn error occured\n")
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-You can sent me your questions or examples as comment. Thank you for your interest.
+### 5️⃣ If-Elif-Else-Example-4
+#### We can do the same progress with operation like "and" and "or".
+```
+print("This is a grade checker.\nYour first test has an impact rate of 40%, your second test has an impact rate of 60%.\nWrite your scores and see your result.\nIf you have lower than 40, you will be unsuccesful.\n(Grades must be between 0-100)\nAt this program, your grade will handle different")
+  
+firstTest = input("Your first test score: ")
+secondTest = input("Your second test score: ")
+  
+result = (firstTest*40)/100 + (secondTest*60)/100
+  
+if result >= 90 and result < 90:
+    print("\nYour grade is equal or more than 90\n")
+elif result >= 70 and result < 70:
+    print("\nYour grade is equal or more than 70\n")
+elif result <= 50:
+    print("\nYour grade is lower than 50\n")
+else:
+    print("\nAn error occured\n")
+```
+  
+> You can send me your questions or examples in comment, maybe I can add them to the tutorial. Thank you for your interest.
+To improve your code, you can use the "Comment" section. Don't worry and don't hesitate, we all trying to improve ourselves ^-^
