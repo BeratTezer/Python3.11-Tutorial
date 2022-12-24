@@ -293,11 +293,11 @@ print(x < y or y == 30) # Prints "True". Because y = 30. In "or" operation, just
 > In this section, we will learn about loops. After this section, you will be ready for examples and more!
 
 ### 1) <code>For</code> Loops with Lists
-> We can define variables when we write the code.
+> It's our the first loop type.
 
 ```
 # for {variable name for each element} in {element's resource}:
-#   {we can do anything we want in}
+#   {we can do anything we want}
 
 list = ["book","cd","food","water"]
 
@@ -314,28 +314,105 @@ for name in list:
 </details>
 
 ### 2) While 
-> 
+> It's our the second loop type.
 
 ```
+  # while ({condition}): # if the condition returns "True", loop will start and 
+  #   {we can do anything we want}
   
+  a = 10
+  
+  while (a > 5):
+    print(f"A euals {a}")
 ```  
 
-# 🤸🏼‍♂️ Converting Data Types
-> 
+<details>
+    <summary>Explanation</summary>
+    <p>If you do like this, you code will run until you close it or forever :D To avoid this problems and handle the loops better we will learn these <code>break</code>, <code>continue</code>.</p>
+</details>
 
-### 1) 
-> 
+### <code>break</code> and <code>continue</code>
+
+```  
+  a = 10
+  b = 0
+  
+  while (a > 5):
+    print(f"A euals {a}")
+    
+    b = b + 1       # b will increase one each tour
+  
+    if b == 5:
+      break         # loop will end on this line
+    else:
+      continue      # loop will continue when the b isn't equal 5
+  
+  
+  # In this loop, when the name equals to "food", loop will end
+  
+  list = ["book","cd","food","water"]
+
+  for name in list:
+    if name == "food":
+      break
+    else:
+      continue
+```  
+  
+# 🤸🏼‍♂️ Converting Data Types
+> We will learn the data types and their conversions.
+
+### 1) <code>type({variable_name})</code>
+> This command helps us to understand the variables types. Let's see in an example.
 
 ```
+name = "Alice"
+age1 = "18"
+age2 = 18
+age3 = 18.5
+names = ["Alice", "Bob", "Larry"]
+tutorial_is_good = True
+
+print(type(name))               # name = "Alice"                    -> <class 'str'>
+print(type(age1))               # age1 = "18"                       -> <class 'str'>
+print(type(age2))               # age2 = 18                         -> <class 'int'>
+print(type(age3))               # age3 = 18.5                       -> <class 'float'>
+print(type(names))              # names = ["Alice", "Bob", "Larry"] -> <class 'list'>
+print(type(tutorial_is_good))   # tutorial_is_good = True           -> <class 'bool'>
+  
+# Tip
+print(name + age1)        # Works because we can collect str types
+print(name + " " + age1)  # Works because we can collect str types
+printf(name + age2)       # Doesn't Work we can't collect str and int types
+print(name + " " + age2)  # Doesn't Work we can't collect str and int types
 ``` 
 
-### 2) 
-> 
-
+### 2) Converting the Data Types
+  
+  <code>str()
+  int()
+  float()
+  bool()</code>
+  
 ```
-```
+name = "Alice"
+age1 = "18"
+age2 = 18
+age3 = 18.5
+names = ["Alice", "Bob", "Larry"]
+tutorial_is_good = True
+  
+print(name + age1)        # Works because we can collect str types
+print(name + " " + age1)  # Works because we can collect str types
+printf(name + str(age2))       # Doesn't Work we made the age2's type str
+print(name + " " + str(age2))  # Doesn't Work we made the age2's type str
 
-<!--    -->
+  
+a = "True"
+
+print(type(a))
+print(type(bool(a)))
+```
   
 ## 🐍 Examples1
 ### 1️⃣ Input-Print-Example-1
