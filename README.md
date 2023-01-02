@@ -27,7 +27,7 @@
 ## 📦 VSCode and Python Extension
 
 ### 1) Install VSCode
-> Firstly, we need to download Visual Studio Code. Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. Go to the website: https://code.visualstudio.com/Download
+> Firstly, we need to download Visual Studio Code. Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. Go to the website: https://code.visualstudio.com/Download For the video about downloading: https://youtu.be/Dnw27nTX66o?t=22
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64587561/205915207-dff76564-e8ec-4e5c-b5e3-dae6db250838.png" alt="Download VSCode"> 
 </p>
