@@ -1,7 +1,7 @@
 # <p align="center"> ![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png)Python Time![kisspng-professional-python-programmer-computer-programmin-python-logo-download-5b47725c1cc0d6 3474912915314089881178-removebg-preview](https://user-images.githubusercontent.com/64587561/205902584-a348bd03-8884-40cd-82ef-6c3b55acaf02.png) </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Situation-Updating...-green" alt="situation bagde"/> <img src="https://visitor-badge.glitch.me/badge?page_id=BeratTezer.Python3.11-Tutorial&left_text=Viewers%20of%20Education" alt="visitor badge"/> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BeratTezer/Python3.11-Tutorial?color=informational&label=Thanks%20to%20me%20(Stars)">
+  <img src="https://img.shields.io/badge/Situation-Updating...-green" alt="situation bagde"/> <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FBeratTezer%2FPython3.11-Tutorial"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FBeratTezer%2FPython3.11-Tutorial&label=Viewers%20of%20Tutorial&countColor=%2337d67a&style=plastic&labelStyle=none" /></a> <!--- <img src="https://visitor-badge.glitch.me/badge?page_id=BeratTezer.Python3.11-Tutorial&left_text=Viewers%20of%20Education" alt="visitor badge"/> ---> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BeratTezer/Python3.11-Tutorial?color=informational&label=Thanks%20to%20me%20(Stars)">
 </p>
 
 <p align="center">
